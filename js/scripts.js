@@ -6,9 +6,9 @@ function Location(info) {
   // this.notes = notes;
   this.info = info;
 }
-var myNewLocation = new Location([["City: New York"], ["Places to visit: Lake George" , " New York Institute of History & Art"], ["Season to visit: Autumn"], ["Notes: Upstate New York is rural and the trees turn to beautiful colors in the fall."]]);
-var myNewLocation2 = new Location([["City: Chicago"], ["Places to visit: The Bean", " Navy Pier", " Lincoln Park Zoo"], ["Season to visit: Not winter"], ["Notes: Chicago, officially the City of Chicago, is the most populous city in the U.S. state of Illinois, and the third-most-populous city in the United States."]]);
-var myNewLocation3 = new Location([["City: Black Rock Desert"], ["Places to visit: Playa", " lava beds"], ["Season to visit: Summer"], ["Notes: You could go to Burning Man, I guess."]]);
+var myNewLocation = new Location([["CITY: New York"], ["PLACES TO VISIT: Lake George" , " New York Institute of History & Art"], ["SEASON TO VISIT: Autumn"], ["NOTES: Upstate New York is rural and the trees turn to beautiful colors in the fall."]]);
+var myNewLocation2 = new Location([["CITY: Chicago"], ["PLACES TO VISIT: The Bean", " Navy Pier", " Lincoln Park Zoo"], ["SEASON TO VISIT: Not winter"], ["NOTES: Chicago, officially the City of Chicago, is the most populous city in the U.S. state of Illinois, and the third-most-populous city in the United States."]]);
+var myNewLocation3 = new Location([["CITY: Black Rock Desert"], ["PLACES TO VISIT: Playa", " lava beds"], ["SEASON TO VISIT: Summer"], ["NOTES: You could go to Burning Man, I guess."]]);
 
 // User Interface Logic Stuffs
 
