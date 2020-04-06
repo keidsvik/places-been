@@ -1,3 +1,4 @@
+// Business Logic Stuffs
 function Location(location, landmarks, timeOfYear, notes) {
   this.location = location;
   this.landmarks = landmarks;
@@ -7,7 +8,7 @@ function Location(location, landmarks, timeOfYear, notes) {
 
 var newYork = {
   location: "New York",
-  landmarks: "Lake George", "Art Institute of History & Art",
+  landmarks: ["Lake George", "Art Institute of History & Art"],
   timeOfYear: "Autumn",
   notes: "Upstate New York is rural and the trees bloom with beautiful colors", 
 
@@ -15,7 +16,7 @@ var newYork = {
 
 var chicago  = {
   location: "Chicago",
-  landmarks: "The Bean", "Navy Pier", "Lincoln Park Zoo",
+  landmarks: ["The Bean", "Navy Pier", "Lincoln Park Zoo"],
   timeOfYear: "Not winter", 
   notes: "Chicago, officially the City of Chicago, is the most populous city in the U.S. state of Illinois, and the third-most-populous city in the United States. ", 
 
@@ -23,8 +24,14 @@ var chicago  = {
 
 var blackRockDesert  = {
   location: "Black Rock Desert",
-  landmarks: "Playa", "lava beds",
-  timeOfYear: "Not winter", 
-  notes: "Chicago, officially the City of Chicago, is the most populous city in the U.S. state of Illinois, and the third-most-populous city in the United States. ", 
+  landmarks: ["Playa", "lava beds"],
+  timeOfYear: "Summer", 
+  notes: "Go to Burning Man, I guess.", 
 
 };
+// User Interface Logic Stuffs
+
+$(document).ready(function() {
+  event.preventDefault();
+ // $("resultsDiv").append(result);
+})
