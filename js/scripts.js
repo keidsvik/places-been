@@ -21,8 +21,6 @@ $(document).ready(function() {
  $(".blackRock").click(function() {
    $(this).html(myNewLocation3.info.join("<br>"));
  })
- 
-  //  $(this).html(myNewLocation3.info.join("-- ");
 
 });
   
