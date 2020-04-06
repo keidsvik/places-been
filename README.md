@@ -11,23 +11,23 @@ landmarks, preferred time of year and also contains some additional notes about 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Install Git Bash
+* _Using a Terminal on desktop, user will need to type git init
+* _Go to this repository and clone then Open in Desktop
+* _Will likely need Git for Desktop which can be found here: https://help.github.com/en/desktop/getting-started-with-github-desktop/installing-github-desktop
+* _Clone file to desktop
+* _Run index.html with web browser
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_Cities have to be clicked in order from top to bottom in order for JS functionality to work_
 
 ## Support and contact details
 
 _Contact Taylor at taylorphillips133@gmail.com 
 _OR_
-_Contact Kelly Eidsvik at ________________
+_Contact Kelly Eidsvik at kelly.eidsvik@gmail.com
 
 ## Technologies Used
 
