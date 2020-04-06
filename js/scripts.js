@@ -15,11 +15,11 @@ var myNewLocation3 = new Location([["City: Black Rock Desert"], ["Places to visi
 $(document).ready(function() {
   // event.preventDefault();
  $(".newYork").click(function() {
-   $(this).html(myNewLocation.info.join("-- "));
+   $(this).html(myNewLocation.info.join("<br>"));
  $(".chicago").click(function() {
-   $(this).html(myNewLocation2.info.join("-- "));
+   $(this).html(myNewLocation2.info.join("<br>"));
  $(".blackRock").click(function() {
-   $(this).html(myNewLocation3.info.join("-- "));
+   $(this).html(myNewLocation3.info.join("<br>"));
  })
  
   //  $(this).html(myNewLocation3.info.join("-- ");
