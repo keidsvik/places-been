@@ -33,5 +33,10 @@ var blackRockDesert  = {
 
 $(document).ready(function() {
   event.preventDefault();
- // $("resultsDiv").append(result);
+ $(#resultsDiv).text("");
+ var newYork = ($("nyResults").val());
+ var chicago = ($("#chicagoResults").val());
+ var blackRockDesert = ($("#blackRockDesertResults").val());
+
+
 })
