@@ -5,3 +5,19 @@
 h1 {
   font-style: italic;
 }
+
+
+img, h3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#nyResults, #chicagoResults, #blackRockDesertResults {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+}

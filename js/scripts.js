@@ -7,19 +7,25 @@ function Location(info) {
   this.info = info;
 }
 var myNewLocation = new Location([["City: New York"], ["Places to visit: Lake George" , " New York Institute of History & Art"], ["Season to visit: Autumn"], ["Notes: Upstate New York is rural and the trees turn to beautiful colors in the fall."]]);
-var myNewLocation2 = new Location([["City: Chicago"], ["Places to visit: The Bean", " Navy Pier", "Lincoln Park Zoo"], ["Season to visit: Not winter"], ["Notes: Chicago, officially the City of Chicago, is the most populous city in the U.S. state of Illinois, and the third-most-populous city in the United States."]]);
-var myNewLocation3 = new Location([["Black Rock Desert"], ["Places to visit: Playa", " lava beds"], ["Season to visit: Summer"], ["Notes: You could go to Burning Man, I guess."]]);
+var myNewLocation2 = new Location([["City: Chicago"], ["Places to visit: The Bean", " Navy Pier", " Lincoln Park Zoo"], ["Season to visit: Not winter"], ["Notes: Chicago, officially the City of Chicago, is the most populous city in the U.S. state of Illinois, and the third-most-populous city in the United States."]]);
+var myNewLocation3 = new Location([["City: Black Rock Desert"], ["Places to visit: Playa", " lava beds"], ["Season to visit: Summer"], ["Notes: You could go to Burning Man, I guess."]]);
 
 // User Interface Logic Stuffs
 
 $(document).ready(function() {
   // event.preventDefault();
- $("h3").click(function(){
+ $(".newYork").click(function() {
    $(this).html(myNewLocation.info.join("-- "));
-  //  $(this).html(myNewLocation2.info.join("-- "));
-  //  $(this).html(myNewLocation3.info.join("-- "));
+ $(".chicago").click(function() {
+   $(this).html(myNewLocation2.info.join("-- "));
+ $(".blackRock").click(function() {
+   $(this).html(myNewLocation3.info.join("-- "));
+ })
+ 
+  //  $(this).html(myNewLocation3.info.join("-- ");
+
 });
   
 })
 
-
+})
